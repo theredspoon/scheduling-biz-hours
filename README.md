@@ -1,12 +1,9 @@
-# `create-react-app` ... with Redux
+# Scheduling Business Hours
 
-This is a barebones implementation of Redux with a React app that was generated with `create-react-app`, and then ejected with `npm run eject`.
-
-:bulb: This repository consists of two commits and only two commits.  
-
- 1. **first commit** is the base code of a `create-react-app` app source code after eject (`npm run eject`)
- 2. **second commit** are the sample additions to implement basic redux
-
-:bulb: :bulb: It is worth noting that it is **not** required to run `npm run eject` in order to get Redux implemented in this app.  Implementing Redux in the app without ejecting is completely possible
-
-![demo](images/demo.gif)
+This is intended as a simple test to demonstrate a working knowledge of React and Redux. The page implements the following functionality:
+- uses React for rendering and Redux for state management
+- a time picker for the Start / End Times
+- redux-form handling form logic
+- clean, basic styling (with react-bootstrap)
+- form validation with redux-form: all fields are required and the times are in the correct format (12-hour)
+- follows a template API and wireframe documentation
