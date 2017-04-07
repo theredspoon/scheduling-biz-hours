@@ -9,7 +9,7 @@ const store = configureStore();
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <App className="container" />
   </Provider>,
   document.getElementById('root')
 );
